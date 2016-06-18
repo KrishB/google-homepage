@@ -66,21 +66,22 @@ button {
 }
 
 #footer p {
-	float: right;
 	font-family: arial;
 	font-size: 13px;
 	color: grey;
 }
 
 #left {
-	height: 10px;
-	text-align: left;
-	margin-right: 10px;
+	float: left;
+	margin-right: 900px;
 }
 
-#right {
-	padding-right: 100px;
-	text-align: right;
+#left p {
+	margin-left: 10px;
+	float: left;
 }
 
-
+#right p {
+	margin-left: 10px;
+	float: left;
+}
